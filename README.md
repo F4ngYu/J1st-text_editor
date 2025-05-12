@@ -5,12 +5,12 @@ The idea is to build a text editor for the browser(not an online compiler, JUST 
 I have discussed more about the future of this project later in this file refer to the `Future of this Project` section.
 
 
-Table of Contents
+# Table of Contents
 
-# Future of this project
-# Explanation
-# Contributing
-# License
+### Future of this project
+### Explanation
+### Contributing
+### License
 
 # Future of this project:
   This project is still lacking option to open files and doesn't have any file tree like `neo-tree` in nvim. At its present state it can change the name of file edit the contents and save the file. It is also lacking the looks.
