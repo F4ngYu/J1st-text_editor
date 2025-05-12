@@ -1,0 +1,20 @@
+body {
+    background-color: #36454F;
+    color: aliceblue;
+}
+
+#textbox {
+    font-size: 10px;
+    background-color: dimgray;
+    opacity: 75%;
+}
+
+#textbox #text {
+    opacity: 100%;
+    color: white;
+}
+
+#Header #save {
+    font-size: bold;
+    color: black;
+}
