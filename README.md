@@ -25,11 +25,13 @@ We welcome contributions from the community! To contribute, please follow these 
 ## Fork the Repository:
 
 Click the "Fork" button at the top-right of the repository page on GitHub.
-Clone your forked repository to your local machine:git clone https://github.com/F4ngYu/J1st-text_editor.git
+Clone your forked repository to your local machine:
+  ```git clone https://github.com/F4ngYu/J1st-text_editor.git```
 
 ## Create a Branch:
 
-Create a new branch for your feature or bug fix:git checkout -b feature/your-feature-name
+Create a new branch for your feature or bug fix:
+   ```git checkout -b feature/your-feature-name```
 
 ## Make Changes:
 
@@ -39,11 +41,13 @@ Write or update tests if applicable.
 
 ## Commit Changes:
 
-Commit your changes with a clear and descriptive commit message:git commit -m "Add your descriptive message here"
+Commit your changes with a clear and descriptive commit message:
+    ```git commit -m "Add your descriptive message here"```
 
 ## Push to Your Fork:
 
-Push your branch to your forked repository:git push origin feature/your-feature-name
+Push your branch to your forked repository:
+  ```git push origin feature/your-feature-name```
 
 ## Submit a Pull Request:
 
@@ -62,6 +66,7 @@ Make additional commits to your branch if needed; they will automatically be inc
 - Follow the project's coding standards.
 - Keep pull requests focused on a single feature or fix to make reviews easier(You can make larger changes, It is just a tip to avoid any future issues).
 - Be respectful and collaborative in discussions.
+- Make sure you write a clear commit message for clearence.
 
 ## Reporting Issues
 
