@@ -13,10 +13,16 @@ I have discussed more about the future of this project later in this file refer 
 ### License
 
 # Future of this project:
-  This project is still lacking option to open files and doesn't have any file tree like `neo-tree` in nvim. At its present state it can change the name of file edit the contents and save the file. It is also lacking the looks.
+  This project still doesn't have any file tree like `neo-tree` in nvim. At its present state it can change the name of file edit the contents and save the file. It is also lacking the looks.
 
 # Explanation:
   In future, any changes made or any extra dependency to be installed is added then it should be explained breifly in the README.md. Also try to keep the file structure and the files organised and clean. 
+  ## To run:
+     - Clone The Repository.
+     - Go to the directory.
+     - Run a local Server using the command:
+        ```python3 -m http.server```
+     - It will give you the site to open in the browser.
 
 
 # Contributing
