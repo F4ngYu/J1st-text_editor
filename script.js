@@ -5,6 +5,18 @@
 //     }
 // });
 
+const fileInput = document.createElement("input");
+fileInput.type = "file";
+fileInput.accept = ".txt,.md,.json,.html,.css,.js,.csv"; // adjust as needed
+fileInput.style.display = "none";
+document.body.appendChild(fileInput);
+document.getElementById("fOpen").addEventListener("click", () => {
+    console.log("Open button clicked"); // check this prints
+    fileInput.click();
+});
+
+
+
 function getMimeType(extension) {
     const types = {
         txt: 'text/plain',
@@ -24,6 +36,9 @@ function saveToFile() {
     const content = document.getElementById("text").innerText;
     let filename = document.getElementById("Heading").innerText.trim();
 
+     console.log("Save triggered");
+
+
     if (!filename) {
         alert("Please enter a filename with extension.");
         return;
@@ -42,3 +57,18 @@ function saveToFile() {
     URL.revokeObjectURL(link.href);
 };
 document.getElementById("save").addEventListener("click", saveToFile);
+
+function loadFromFile(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = function(e) {
+        document.getElementById("text").innerText = e.target.result;
+        document.getElementById("Heading").innerText = file.name; // optionally show filename
+    };
+    reader.readAsText(file);
+}
+
+fileInput.addEventListener("change", loadFromFile);
+
